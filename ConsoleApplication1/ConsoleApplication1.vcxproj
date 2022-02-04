@@ -140,9 +140,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ConsoleApplication1.cpp" />
+    <ClCompile Include="CurrentConditionDisplay.cpp" />
     <ClCompile Include="WeatherData.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CurrentConditionDisplay.h" />
     <ClInclude Include="DisplayElement.h" />
     <ClInclude Include="Observer.h" />
     <ClInclude Include="Subject.h" />

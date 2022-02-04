@@ -28,8 +28,8 @@ void WeatherData::registerObserver(Observer* o) {
 	}
 }
 
-void WeatherData::notifuObservers() {
-	for (auto inter : observers) {
+void WeatherData::notifyObservers() {
+	for (auto iter : observers) {
 		((Observer*)iter)->update(temperature, humidity, pressure);
 	}
 
